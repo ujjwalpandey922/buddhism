@@ -50,3 +50,26 @@ a {
             transform: translateY(0);
   }
 }
+/*===============Change Scroll Bar==============*/
+html {
+  --scrollbarBG: #000000;
+  --thumbBG: #f8f800;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thick;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 5px solid var(--scrollbarBG);
+}
+
+/*===============Change Scroll Bar==============*/
