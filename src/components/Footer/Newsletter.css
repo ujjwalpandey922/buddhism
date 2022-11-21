@@ -1,0 +1,44 @@
+.app__news{
+    border: 2px solid var(--color-golden);
+    background: var(--color-black);
+    
+}
+.app__news-heading{
+    text-align: center;
+}
+
+.app__news-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: start;
+    margin-top: 3rem;
+}
+.app__news-input input{
+    border: none;
+    outline: none;
+    height: 2.75rem;
+    width: 600px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-style: 1rem;
+    color: var(--color-white);
+    background: var(--color-black);
+    padding: 1rem;
+}
+
+@media (max-width:1050px) {
+    
+    .app__news-input {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    .app__news-input input{
+        width: 100%;
+    }
+    .app__news-input button{
+        max-width: 100px;
+        align-self: center;
+    }
+}
