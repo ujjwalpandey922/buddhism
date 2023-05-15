@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import images from "../../constants/images";
+import images from "./../../assets/logo3.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className="app__navbar ">
         <div className="app_navbar-img">
           <a href="#home">
-            <img src={images.gericht} alt="logo" />
+            <img src={images} alt="logo" />
           </a>
         </div>
         <ul className="app__navbar-links">
@@ -33,11 +33,11 @@ const Navbar = () => {
         </ul>
         <div className="app__navbar-login">
           <span>
-            <a href="/">Log In/Register </a>
+            <a href="/">Log In </a>
           </span>
           <div />
           <a href="/">
-            <span>Book a table </span>
+            <span>Register </span>
           </a>
         </div>
         <div className="app__navbar-smallscreen">

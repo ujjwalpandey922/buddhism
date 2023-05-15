@@ -1,39 +1,31 @@
 import React, { useRef } from "react";
-import {
-  BsInstagram,
-  BsArrowLeftShort,
-  BsArrowRightShort,
-} from "react-icons/bs";
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { SubHeading } from "../../components";
 import "./Gallery.css";
-import images from "../../constants/images";
-
+import img1 from "../../assets/buddhism7.png";
+import img2 from "../../assets/buddhism8.png";
+import img3 from "../../assets/buddhism9.png";
+import img4 from "../../assets/buddhism10.png";
 const Gallery = () => {
   const scrollRef = useRef();
   const scroll = (Direction) => {
     //get value of direction which is clicked using ref
     const { current } = scrollRef;
-    console.log(current, Direction, current.scrollLeft);
     if (Direction === "left") {
       current.scrollLeft -= 300;
     } else {
       current.scrollLeft += 300;
     }
   };
-  const AllImages = [
-    images.gallery01,
-    images.gallery02,
-    images.gallery03,
-    images.gallery04,
-  ];
+  const AllImages = [img1, img2, img3, img4];
   return (
-    <div className="app__gallery section__padding flex__center">
-      <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
+    <div className="app__gallery  section__padding">
+      <div className="app__gallery-content ">
+        <SubHeading title="Buddhism All Around" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          illo ab fugit quis perferendis animi quae suscipit, quo similique ex!
+          The teachings of Gautama Buddha are followed the world over and
+          practiced by monks and laymen alike.
         </p>
         <button
           type="button"
@@ -47,9 +39,8 @@ const Gallery = () => {
       <div className="app__gallery-images">
         <div className="app__gallery-images-container" ref={scrollRef}>
           {AllImages.map((e, i) => (
-            <div className="app__gallery-images-card flex__center" key={i}>
+            <div className="app__gallery-images-card " key={i}>
               <img src={e} alt="gallery" />
-              <BsInstagram className="app__gallery-images-card-insta" />
             </div>
           ))}
         </div>

@@ -1,25 +1,25 @@
 import React from "react";
 import { SubHeading } from "../../components";
-import images from "../../constants/images";
+import homepage from "../../assets/buddhism5.png";
 
 import "./Header.css";
 
 const Header = () => (
   <div className="app__header section__padding app__wrapper" id="home">
     <div className="app__wrapper_info">
-      <SubHeading title="Chase the new flavour" />
-      <h1 className="app__header-h1">The Key To Fine Dinning </h1>
+      <SubHeading title="Bauddha and Dharmavinaya" />
+      <h1 className="app__header-h1">Towards a Better Life </h1>
       <p className="p__opensans">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-        nostrum tempore ipsum doloribus molestias eligendi tenetur maiores
-        asperiores consequatur ipsa ullam
+        Buddhism is an amazing philosophy full of wisdom with great truths,
+        however I believe Buddhists have lost the way of the Buddha and lack a
+        real basis of impact. Effective Buddhism is a solution to those who seek
+        to follow the Buddhist Path as Buddha Wanted. If Buddha was alive today,
+        imagine the amount of change and impact he would be having.
       </p>
-      <button type="button" className="custom__button">
-        Explore Menu
-      </button>
+    
     </div>
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="wekcome" />
+      <img src={homepage} alt="wekcome" />
     </div>
   </div>
 );

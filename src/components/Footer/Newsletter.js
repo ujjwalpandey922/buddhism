@@ -6,8 +6,8 @@ import "./Newsletter.css";
 const Newsletter = () => (
   <div className="app__news section__padding">
     <div className="app__news-heading">
-      <SubHeading title="NewsLetter" />
-      <h1 className="headtext__cormorant">Subscribe To Our NewsLetter</h1>
+      <SubHeading title="Daily Blogs" />
+      <h1 className="headtext__cormorant">Subscribe To Our Daily Blogs</h1>
       <p className="p__opensans">Never miss latest updates</p>
     </div>
     <div className="app__news-input ">

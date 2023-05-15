@@ -1,57 +1,62 @@
-.app__specialmenu{
-    display: flex;
-    flex-direction:column;
-    background: var(--color-black);
+.app__specialmenu {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-black);
 }
-.app__specialmenu-title{
-    margin-bottom: 2rem;
-    text-align: center;
+.app__specialmenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
 }
-.app__specialmenu-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin: 2rem 0;
+.app__specialmenu-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 2rem 0;
 }
-.app__specialmenu-menu_heading{
-    font-family: var(--font-base);
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 50px;
-    letter-spacing: 0.04em;
-    color: var(--color-white);
+.app__specialmenu-menu_winenbeer {
+  width: 100%;
 }
-.app__specialmenu-menu_img{
-    width: 400px;
-    margin: 0 2rem;
+.app__specialmenu-menu_heading {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
 }
-.app__specialmenu-menu_img img{
-    width:100%;
-    
+.app__specialmenu-menu_img {
+  width: 400px;
+  margin: 0 2rem;
+}
+.app__specialmenu-menu_img img {
+  width: 100%;
 }
 
-.app__specialmenu-menu_items{
-    display: flex;
+.app__specialmenu-menu_items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+@media (max-width: 1100px) {
+  .app__specialmenu-menu {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 2rem 0;
-}
-
-@media (max-width:1100px) {
-    .app__specialmenu-menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        flex: 1;
-        gap: 2rem;
-    }
-    .app__specialmenu-menu_winenbeer span ,.app__specialmenu-menu_cocktail span{
-       
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    flex: 1;
+    gap: 2rem;
+  }
+  .app__specialmenu-menu_winenbeer span,
+  .app__specialmenu-menu_cocktail span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .app__specialmenu-menu_winenbeer {
+    padding: 1rem;
+  }
 }
