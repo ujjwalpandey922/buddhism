@@ -1,5 +1,3 @@
-import images from "./images";
-
 const wines = [
   {
     title: "Right View",
@@ -42,28 +40,5 @@ const wines = [
     tags: "the Right Concentration is the most challenging one. It tells how to be aware of ones path and how to be fully focused for the same",
   },
 ];
-
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
-    imgUrl: images.award01,
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
-    imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
-    imgUrl: images.award03,
-    title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-];
-
-export default { wines, awards };
+// eslint-disable-next-line
+export default { wines };
