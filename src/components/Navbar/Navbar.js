@@ -22,21 +22,21 @@ const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li className="p__opensans">
-            <a href="#menu">Menu</a>
+            <a href="#path">Path</a>
           </li>
           <li className="p__opensans">
-            <a href="#awards">Awards</a>
+            <a href="#believe">Believe</a>
           </li>
           <li className="p__opensans">
-            <a href="#contact">Contact</a>
+            <a href="#gallery">Gallery</a>
           </li>
         </ul>
         <div className="app__navbar-login">
           <span>
-            <a href="/">Log In </a>
+            <a href="/#">Log In </a>
           </span>
           <div />
-          <a href="/">
+          <a href="/#">
             <span>Register </span>
           </a>
         </div>
@@ -66,13 +66,13 @@ const Navbar = () => {
                   <a href="#about">About</a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#menu">Menu</a>
+                  <a href="#path">Path</a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#awards">Awards</a>
+                  <a href="#believe">Believe</a>
                 </li>
                 <li className="p__opensans">
-                  <a href="#contact">Contact</a>
+                  <a href="#gallery">Gallery</a>
                 </li>
               </ul>
             </div>

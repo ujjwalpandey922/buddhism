@@ -4,7 +4,7 @@ import "./SpecialMenu.css";
 import { MenuItem, SubHeading } from "../../components";
 
 const SpecialMenu = () => (
-  <div className="app__specialmenu section__padding flex__center" id="menu">
+  <div className="app__specialmenu section__padding flex__center" id="path">
     <div className="app__specialmenu-title">
       <SubHeading title="More about the Principles" />
       <h1 className="headtext__cormorant"> The Noble Eightfold Path</h1>

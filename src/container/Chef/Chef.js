@@ -5,7 +5,7 @@ import buddhaQuote from "../../assets/buddhism3.png";
 import "./Chef.css";
 
 const Chef = () => (
-  <div className="app__chef app__bg app__wrapper section__padding">
+  <div className="app__chef app__bg app__wrapper section__padding" id="believe">
     <div className="app__chef-image app__wrapper_img app__wrapper_img-reverse">
       <img src={buddhaQuote} alt="chef" />
     </div>
@@ -25,10 +25,9 @@ const Chef = () => (
           wide, preaching and changing and influencing the world and his actions
           live on to this day. Buddhists in most countries are seen as people
           who simply meditate. The idea is to relinquish attachment to earthly
-          desires in order to DO MORE. The core
-          re-evaluation leads us to the idea that Nirvana is something to
-          achieve in this realm. And that leaving this realm is a negative
-          desire in it of itself.
+          desires in order to DO MORE. The core re-evaluation leads us to the
+          idea that Nirvana is something to achieve in this realm. And that
+          leaving this realm is a negative desire in it of itself.
         </p>
       </div>
       <div className="app__chef-sign">

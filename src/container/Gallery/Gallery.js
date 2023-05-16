@@ -19,7 +19,7 @@ const Gallery = () => {
   };
   const AllImages = [img1, img2, img3, img4];
   return (
-    <div className="app__gallery  section__padding">
+    <div className="app__gallery  section__padding" id="gallery">
       <div className="app__gallery-content ">
         <SubHeading title="Buddhism All Around" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
